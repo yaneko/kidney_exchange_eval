@@ -2,7 +2,7 @@
 
 This repository contains the code used for evaluating the approach proposed in the paper "Optimal Algorithms for Generalized Stochastic Matching".
 
-Structure of the repo:
-
-results.pdf - a file contained the results of our algorithm on 3 arbitrary chosen testcases
-The plotted results can be found in results.pdf
+Files in the repo:
+*.input - files containing kindey exchange instances from the dataset "Dataset for kidney exchange problems", https://rdm.inesctec.pt/dataset/ii-2019-001 (3 arbitrary instances of approperiate sizes)
+kindey_exchange.cc - a c++ file simulating the algorithm proposed in the paper
+results.pdf - a file contained the results of our algorithm on the 3 chosen instances
